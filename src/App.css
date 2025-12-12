@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* MISTAKES DOTS AND CONTAINER  */
+.mistake {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.mistake.dead {
+  /* remove when styles and colors decided  */
+  background: grey;
+}
+.mistake.alive {
+  /* remove when styles and colors decided  */
+  background: rebeccapurple;
+}
+
+
+/* BUTTON CONTAINER BUT NOT BUTTONS (COMPONENT)  */
+.btn-container {
+  padding: 1rem 2rem;
+}

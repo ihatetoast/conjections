@@ -1,0 +1,15 @@
+.game-btn {
+      height: 8rem;
+    width: 8rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.12rem;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0.5rem;
+
+    /* change later when colors determined  */
+        background: #fff;
+    color: #000;
+}
